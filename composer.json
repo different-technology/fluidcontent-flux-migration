@@ -1,0 +1,26 @@
+{
+  "name": "different-technology/fluidcontent-flux-migration",
+  "type": "typo3-cms-extension",
+  "description": "Migrate your TYPO3 content from fluidcontent to flux - different.technology",
+  "authors": [
+    {
+      "name": "Markus Hölzle",
+      "email": "mail@markus-hoelzle.de",
+      "role": "Developer",
+      "homepage": "https://different.technology/"
+    }
+  ],
+  "homepage": "https://different.technology/",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "DifferentTechnology\\FluidcontentFluxMigration\\": "Classes/"
+    }
+  },
+  "require": {
+    "typo3/cms-core": "^10.4.0"
+  },
+  "replace": {
+    "typo3-ter/fluidcontent-flux-migration": "self.version"
+  }
+}

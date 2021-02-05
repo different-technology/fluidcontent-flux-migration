@@ -1,3 +1,7 @@
+[![Packagist Release](https://img.shields.io/packagist/v/different-technology/fluidcontent-flux-migration.svg?style=flat-square)](https://packagist.org/packages/different-technology/fluidcontent-flux-migration)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/different-technology/fluidcontent-flux-migration.svg?style=flat-square)](https://packagist.org/packages/different-technology/fluidcontent-flux-migration)
+[![GitHub License](https://img.shields.io/github/license/different-technology/fluidcontent_flux_migration.svg?style=flat-square)](https://github.com/different-technology/fluidcontent_flux_migration/blob/main/LICENSE)
+
 # Fluid Content to Flux migration
 
 This TYPO3 extension adds an upgrade wizard to your TYPO3 instance which converts fluidcontent elements to flux elements.

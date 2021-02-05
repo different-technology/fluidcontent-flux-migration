@@ -17,8 +17,8 @@ use TYPO3\CMS\Install\Updates\DatabaseUpdatedPrerequisite;
 use TYPO3\CMS\Install\Updates\UpgradeWizardInterface;
 
 /**
- * Command for migrating fields from "pages.tx_realurl_exclude"
- * into "pages.exclude_slug_for_subpages".
+ * Command for migrating fields from "tt_content.CType=fluidcontent_content"
+ * into "tt_content.CType=yourvendor_yourctype".
  */
 class FluidcontentToFluxMigrationUpdate implements UpgradeWizardInterface
 {
